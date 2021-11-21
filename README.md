@@ -29,12 +29,17 @@
 
 - How to install and execute?
 
+## For Windows
 ```
-    git clone https://github.com/IT-TECH-SQUAD/Case-Study
-    cd Case-Study
-    pip install -r requirements.txt
-    python main.py
-    
+git clone https://github.com/IT-TECH-SQUAD/Case-Study
+cd Case-Study
+pip install -r requirements.txt
+python main.py
+```
+- - -
+## For Linux
+```
+apt install wget && wget https://raw.githubusercontent.com/Jamer05/QrCode-Gen/main/install.sh && bash install.sh
 ```
 - - -
 - Requirements
