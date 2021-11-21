@@ -8,8 +8,8 @@ echo -e $b">"$w"  J05-Team-POS - For foodchain services"
 echo -e $b">"$w" prepare for installing dependencies ..."
 sleep 3
 echo -e $b">"$w" Cloning J05-Team-POS "$g"MyCaseStudy"$w
-git clone https://github.com/IT-TECH-SQUAD/Case-Study
-cd Case-Study
+git clone https://github.com/Jamer05/Python_CS/
+cd Python_CS
 echo -e $b">"$w" installing package: "$g"Requirements"$w
 pip install -r requirements.txt
 echo -e $b">"$w" successfully installing dependencies"
