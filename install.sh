@@ -11,6 +11,6 @@ echo -e $b">"$w" Cloning J05-Team-POS "$g"MyCaseStudy"$w
 git clone https://github.com/Jamer05/Python_CS/
 cd Python_CS
 echo -e $b">"$w" installing package: "$g"Requirements"$w
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 echo -e $b">"$w" successfully installing dependencies"
 echo -e $b">"$w" use command "$g"python main.py"$w" to start the console"
