@@ -14,4 +14,5 @@ echo -e $b">"$w" installing package: "$g"Requirements"$w
 pip3 install -r requirements.txt
 echo -e $b">"$w" successfully installing dependencies"
 echo -e $b">"$w" use command "$g"python main.py"$w" to start the console"
-cd "$(Python_CS "${BASH_SOURCE[0]}")"
+alias run="cd /Python_CS/; python main.py"
+run
