@@ -15,4 +15,4 @@ pip3 install -r requirements.txt
 echo -e $b">"$w" successfully installing dependencies"
 echo -e $b">"$w" use command "$g"python main.py"$w" to start the console"
 source Python_CS
-$SHELL
+exec bash
