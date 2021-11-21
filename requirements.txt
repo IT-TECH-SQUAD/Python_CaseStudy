@@ -1,0 +1,7 @@
+pywhatkit == 5.2
+tabulate == 0.8.9
+Pillow == 8.4.0
+getpass3 == 1.2
+termcolor2 = 0.0.3
+pypng==0.0.21
+pyqrcode==1.2.1
