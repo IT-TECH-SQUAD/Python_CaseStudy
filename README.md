@@ -31,8 +31,8 @@
 
 ## For Windows
 ```
-git clone https://github.com/IT-TECH-SQUAD/Case-Study
-cd Case-Study
+git clone https://github.com/Jamer05/Python_CS
+cd Python_CS
 pip install -r requirements.txt
 python main.py
 ```
