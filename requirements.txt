@@ -5,3 +5,4 @@ getpass3 == 1.2
 termcolor2 == 0.0.3
 pypng==0.0.21
 pyqrcode==1.2.1
+phonenumbers == 8.12.37
