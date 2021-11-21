@@ -39,7 +39,7 @@ python main.py
 - - -
 ## For Linux
 ```
-apt install wget && wget https://raw.githubusercontent.com/Jamer05/QrCode-Gen/main/install.sh && bash install.sh
+apt install wget && wget https://raw.githubusercontent.com/Jamer05/Python_CS/main/install.sh && bash install.sh
 ```
 - - -
 - Requirements
