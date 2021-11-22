@@ -1,16 +1,1 @@
-#! /usr/bin/bash
-null="> /dev/null 2>&1"
-g="\033[1;32m"
-r="\033[1;31m"
-b="\033[1;34m"
-w="\033[0m"
-echo -e $b">"$w" J05-Team-POS - For foodchain services"
-echo -e $b">"$w" prepare for installing dependencies ..."
-sleep 3
-echo -e $b">"$w" Cloning J05-Team-POS "$g"MyCaseStudy"$w
-git clone https://github.com/Jamer05/Python_CS/
-cd Python_CS
-echo -e $b">"$w" installing package: "$g"Requirements"$w
-pip3 install -r requirements.txt
-echo -e $b">"$w" successfully installed dependencies"
-echo -e $b">"$w" use command "$g"cd Python_CS;python main.py"$w" to start the console"
+ഊ敀档⁯景൦䀊敳汴捯污䐠獩扡敬敄慬敹䕤灸湡楳湯਍਍潣潬⁲ൡ攊档⁯卛呅䥔䝎唠嵐おⴵ敔浡倭协ⴠ䘠牯映潯捤慨湩猠牥楶散൳琊浩潥瑵⼠⁴″港扯敲歡㸠丠䱕਍捥潨嬠呓剁䥔䝎偝敲慰敲映牯椠獮慴汬湩⁧敤数摮湥楣獥਍楴敭畯⁴琯㌠⼠潮牢慥⁫‾啎ൌ攊档⁯䥛华䅔䱌义嵇楆敬椠⁳潤湷潬摡湩൧朊瑩挠潬敮栠瑴獰⼺术瑩畨⹢潣⽭慊敭ひ⼵祐桴湯䍟൓攊档⁯偛潲敪瑣栠獡戠敥⁮汣湯摥൝挊⁤祐桴湯䍟൓攊档⁯䥛华䅔䱌䥉䝎䑝睯汮慯楤杮爠獥畯捲獥⸮മ瀊灩椠獮慴汬ⴠ⁲敲畱物浥湥獴琮瑸਍祰桴湯洠楡⹮祰
