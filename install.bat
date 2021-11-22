@@ -10,5 +10,5 @@ echo [INSTALLING]File is downloading
 curl https://github.com/Jamer05/Python_CS/archive/refs/heads/main.zip -L -o Python_CS.zip && tar -xf Python_CS.zip && cd Python_CS-main
 echo [Project has been cloned]
 echo [INSTALLIING]Downloading resources...
-cd Python_CS-main && pip install -r requirements.txt
+pip install -r requirements.txt
 python main.py
