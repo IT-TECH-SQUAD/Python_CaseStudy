@@ -1,1 +1,16 @@
-ഊ℣⼠獵⽲楢⽮慢桳渊汵㵬㸢⼠敤⽶畮汬㈠☾∱朊∽ぜ㌳ㅛ㌻洲ਢ㵲尢㌰嬳㬱ㄳ≭戊∽ぜ㌳ㅛ㌻洴ਢ㵷尢㌰嬳洰ਢ捥潨ⴠ⁥戤㸢␢≷䨠㔰吭慥⵭佐⁓‭潆⁲潦摯档楡⁮敳癲捩獥ਢ捥潨ⴠ⁥戤㸢␢≷瀠敲慰敲映牯椠獮慴汬湩⁧敤数摮湥楣獥⸠⸮ਢ汳敥⁰ਲ਼捥潨ⴠ⁥戤㸢␢≷䌠潬楮杮䨠㔰吭慥⵭佐⁓␢≧祍慃敳瑓摵≹眤朊瑩挠潬敮栠瑴獰⼺术瑩畨⹢潣⽭慊敭ひ⼵祐桴湯䍟⽓挊⁤祐桴湯䍟੓捥潨ⴠ⁥戤㸢␢≷椠獮慴汬湩⁧慰正条㩥∠朤刢煥極敲敭瑮≳眤瀊灩″湩瑳污⁬爭爠煥極敲敭瑮⹳硴ੴ捥潨ⴠ⁥戤㸢␢≷猠捵散獳畦汬⁹湩瑳污楬杮搠灥湥敤据敩≳攊档⁯攭␠≢∾眤•獵⁥潣浭湡⁤␢≧摣倠瑹潨彮千瀻瑹潨⁮慭湩瀮≹眤•潴猠慴瑲琠敨挠湯潳敬ਢ
+#! /usr/bin/bash
+null="> /dev/null 2>&1"
+g="\033[1;32m"
+r="\033[1;31m"
+b="\033[1;34m"
+w="\033[0m"
+echo -e $b">"$w" J05-Team-POS - For foodchain services"
+echo -e $b">"$w" prepare for installing dependencies ..."
+sleep 3
+echo -e $b">"$w" Cloning J05-Team-POS "$g"MyCaseStudy"$w
+git clone https://github.com/Jamer05/Python_CS/
+cd Python_CS
+echo -e $b">"$w" installing package: "$g"Requirements"$w
+pip3 install -r requirements.txt
+echo -e $b">"$w" Successfully installed dependencies"
+echo -e $b">"$w" use command "$g"cd Python_CS;python main.py"$w" to start the console"
