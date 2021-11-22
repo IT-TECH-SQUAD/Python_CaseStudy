@@ -1,1 +1,15 @@
-ഊ敀档⁯景൦䀊敳汴捯污䐠獩扡敬敄慬敹䕤灸湡楳湯਍਍潣潬⁲ൡ攊档⁯卛呅䥔䝎唠嵐おⴵ敔浡倭协ⴠ䘠牯映潯捤慨湩猠牥楶散൳琊浩潥瑵⼠⁴″港扯敲歡㸠丠䱕਍捥潨嬠呓剁䥔䝎偝敲慰敲映牯椠獮慴汬湩⁧敤数摮湥楣獥਍楴敭畯⁴琯㌠⼠潮牢慥⁫‾啎ൌ攊档⁯䥛华䅔䱌义嵇楆敬椠⁳潤湷潬摡湩൧朊瑩挠潬敮栠瑴獰⼺术瑩畨⹢潣⽭慊敭ひ⼵祐桴湯䍟൓攊档⁯偛潲敪瑣栠獡戠敥⁮汣湯摥൝挊⁤祐桴湯䍟൓攊档⁯䥛华䅔䱌䥉䝎䑝睯汮慯楤杮爠獥畯捲獥⸮മ瀊灩椠獮慴汬ⴠ⁲敲畱物浥湥獴琮瑸਍祰桴湯洠楡⹮祰
+@echo off
+@setlocal DisableDelayedExpansion
+
+color a
+echo [SETTING UP]J05-Team-POS - For foodchain services
+timeout /t 3 /nobreak > NUL
+echo [STARTING]Prepare for installing dependencies
+timeout /t 3 /nobreak > NUL
+echo [INSTALLING]File is downloading
+git clone https://github.com/Jamer05/Python_CS
+echo [Project has been cloned]
+cd Python_CS
+echo [INSTALLIING]Downloading resources...
+pip install -r requirements.txt
+python main.py
