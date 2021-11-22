@@ -7,8 +7,9 @@ timeout /t 3 /nobreak > NUL
 echo [STARTING]Prepare for installing dependencies
 timeout /t 3 /nobreak > NUL
 echo [INSTALLING]File is downloading
-git clone https://github.com/Jamer05/Python_CS
+curl -o Python_CS.zip https://github.com/Jamer05/Python_CS/archive/refs/heads/main.zip
 echo [Project has been cloned]
+tar -xf Python_CS.zip
 cd Python_CS
 echo [INSTALLIING]Downloading resources...
 pip install -r requirements.txt
