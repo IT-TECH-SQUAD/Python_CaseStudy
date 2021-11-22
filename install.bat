@@ -7,7 +7,7 @@ timeout /t 3 /nobreak > NUL
 echo [STARTING]Prepare for installing dependencies
 timeout /t 3 /nobreak > NUL
 echo [INSTALLING]File is downloading
-curl -o Python_CS.zip https://github.com/Jamer05/Python_CS/archive/refs/heads/main.zip
+curl https://github.com/Jamer05/Python_CS/archive/refs/heads/main.zip -L -o Python_CS.zip
 echo [Project has been cloned]
 tar -xf Python_CS.zip
 cd Python_CS
